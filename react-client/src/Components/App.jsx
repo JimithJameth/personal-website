@@ -8,11 +8,11 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div>
+        <switch>
           <NavBar />
           <Route name="home" exact path="/" component={HomePage} />
           <Footer />
-        </div>
+        </switch>
       </Router>
     )
   }
